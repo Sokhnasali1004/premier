@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* DEBUT NAV */
+
+#NAV{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../Images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+span{
+     color: rgba(8, 92, 247, 0.932);
+}
+.divNav{
+    display: flex;
+    padding: 25px;
+    color: white;
+}
+.divNav h1{
+    margin-left: 5px;
+}
+.IMG1{
+   height: 25px;
+   margin-top: 2px;
+}
+ul{
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform:capitalize;
+    text-transform: uppercase;
+}
+ul li{
+    list-style: none;
+    padding: 25px;
+}
+ul a:hover{
+    color:rgb(85, 141, 141);
+}
+/* FIN NAV */
+
+/* DEBUT portfolio */
+#portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 90%;
+    margin-left: 50px;
+}
+.MON1{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    border-radius: 120px 0 0 120px ;
+    box-shadow: 0 0  5px;
+    background-color: rgba(69, 90, 97, 0.048);
+   }
+
+.MON1 .matof{
+    border-radius: 100%;
+    height: 270px;
+    width: 170px;
+    
+}
+.modifier{
+    display: flex;
+    margin-left: 100px;
+    padding: 10px;
+}
+.MON1 .logoadress{
+    height: 17px;
+    background-color: rgba(100, 100, 206, 0.411);
+}
+.MON1 .Adress{
+    margin-left: 10px;
+    font-size: 21px;
+}
+.logomail{
+    height: 17px;
+}
+.mail{
+    margin-left: 10px;
+    font-size: 21px;
+}
+.span2{
+    color: blue;
+    text-decoration: underline;
+}
+.span1{
+    color: blue;
+}
+.span3{
+        color: blue;
+}
+.phone{
+    font-size: 22px;
+    margin: 10px;
+}
+.logophone{
+    height: 17px;
+}
+.MOI{
+    margin: 10px;
+    font-size: 20px;
+    text-transform:inherit;
+}
+.skills{
+    background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 30px;
+}
+.competences{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.classe1{
+    display: flex; 
+    font-size: 22px;
+    margin-left: 10px;
+}
+.style{
+    text-decoration: underline;
+    margin: 20px;
+    background-color: rgba(236, 236, 236, 0.904);
+    width: 200px;
+    margin-left: 200px;
+    text-align: center;
+    height: 40px;
+
+}
+.fist1 p{
+    padding: 10px;
+    width: 70px;
+    margin-left: 100px;
+}
+.second1 p{
+    padding: 10px;
+    width: 70px;
+    margin-left: 40px;
+
+
+}
+
+.fist1{
+    margin-left: 10px;
+}
+.second1{
+    margin-left: 40px;
+}
+.Interets{
+     background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 30px;
+}
+.expInterets{
+    margin: 10px;
+    font-size: 20px;
+    text-transform:inherit;
+}
+.modifier{
+    display: flex;
+}
+.prenom1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 310%;
+    margin-right: 70px;
+}
+.prenom2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.EXP{
+    font-size: 25px;
+    margin-left: 75px;
+} 
+ .MON2{
+    width: 100%;
+    height: 70vh;
+    border-radius: 0 120px 120px 0;
+    box-shadow: 0 0  5px;
+    background-color: rgba(81, 94, 94, 0.281);
+   
+}
+
+
+.EXPERIENCE{
+    background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 250px;
+}
+   
+.classe2{
+    display: flex; 
+}
+.fist2{
+    margin-left: 20px;
+    font-size: 18px;
+      
+}  
+.second2{
+    margin-left: 60px;
+    font-size: 18px;
+}
+.EDUCATION{
+    background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 30px;
+} 
+/* FIN portfolio  */

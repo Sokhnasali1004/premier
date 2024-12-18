@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* DEBUT NAV */
+#NAV{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../Images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+span{
+     color: rgba(8, 92, 247, 0.932);
+}
+.divNav{
+    display: flex;
+    padding: 25px;
+    color: white;
+}
+.divNav h1{
+    margin-left: 5px;
+}
+.IMG1{
+   height: 25px;
+   margin-top: 2px;
+}
+ul{
+    display: flex;
+}
+.LOGO{
+    width: 70px;
+    height: 40px;
+}
+.js{
+    display: flex;
+}
+.github{
+    display: flex;
+}
+.html i{
+    background-color:rgba(241, 82, 23, 0.959);
+    color: white;
+}
+.css i{
+    background-color: rgb(102, 193, 216);
+    color: white;
+} 
+.js i{
+    background-color:black;
+    color: yellow;
+   
+}
+.boostrap{
+    display: flex; margin: 3px;
+}
+.boostrap img{
+    width: 30px;
+    margin-right: 5px;
+    height: 30px;
+    
+}
+.ps{
+    display: flex;
+
+}
+.ps img{
+    width: 20px;
+    margin-right: 5px;
+    height: 20px;
+    margin-top: 3px;
+}
+.js img{
+    width: 20px;
+    margin-right: 5px;
+    height: 20px;
+    margin-top: 3px;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform:capitalize;
+    text-transform: uppercase;
+}
+ul li{
+    list-style: none;
+    padding: 25px;
+}
+ul a:hover{
+    color:rgb(85, 141, 141);
+}
+/* FIN NAV */
+
+/* DEBUT ACCUEIL */
+#ACCUEIL{
+    display: flex; 
+    height: 100vh;
+    width: 100%;
+}
+.ACC_IMG img{
+   height: 500px;
+   width: 330px;
+   border-radius:25px;
+   box-shadow: 0 0 0  10px rgba(5, 197, 204, 0.425);
+}
+.ACC_IMG{
+    margin-top: 100px;
+    width: 30%;
+    height:75vh ;
+    margin-left: 100px;
+}
+.ACC_TEXTE{
+    height: 430px;
+    width: 75%;
+    margin-top: 130px;
+    margin-left: 90px;
+    text-transform: capitalize;
+    background-color:rgba(155, 211, 192, 0.507);
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.ACC_TEXTE h1{
+    font-size: 40px;
+    text-align: justify;
+    color: rgb(67, 212, 238);
+    text-align: center;   
+    margin-top: 50px;
+}
+.ACC_TEXTE p{
+    font-size:20px;
+    text-align: center;
+    margin-top: 45px;
+    color: rgba(22, 4, 4, 0.966);
+}
+.ACC_TEXTE button{
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 40px;
+    border: none;
+    background-color:rgba(0, 0, 255, 0.521);
+    color: white;
+    text-align: center;
+    margin-left: 290px;
+    margin-top: 40px;
+}
+.ACC_TEXTE button:hover{
+    background-color: rgba(108, 215, 223, 0.493);
+    color: black;
+}
+/* FIN ACCUEIL */
+
+/* DEBUT SERVICES */
+ #SERVICES{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.DivListe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:550px;
+    width: 20%;
+    background-color: rgba(74, 139, 139, 0.164);
+    margin-top:100px ;
+    margin-left:30px ;
+    text-transform: capitalize;
+    font-size: 19px;
+    box-shadow: 0 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.DivDeco{
+    width: 70%;
+    height: 90vh;
+    margin-left: 40px;
+    margin-top: 90px;
+    height: 85vh;
+    display: flex;
+    padding: 9px;
+    flex-wrap: wrap;
+    font-size: 22px;
+}
+.DivListe:hover {
+    transform: scale(0.9); 
+    /* mettre en valeur image */
+}
+.deco2:hover {
+    transform: scale(1.1); 
+    /* mettre en valeur image */
+}
+.imgdeco{
+    width: 275px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.deco2{
+    background-color:rgba(95, 158, 160, 0.322);
+    height: 250px;
+    width: 280px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin: 15px;
+} 
+.deco2 p{
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 18px;
+}
+.flex{
+    display: flex;
+} 
+#SERVICES button{
+    margin-left: 85px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(157, 179, 219, 0.651);
+    color: darkblue;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    
+}
+button:hover{
+    background-color:#333;
+}
+.bouton{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: midnightblue;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top:10px ;
+    border-radius: 15px;
+    border: none;
+}
+.bouton:hover{
+    background-color: rgba(0,0,0,0.218);
+    color: white;
+}
+/* FIN SERVICES */
+
+/* DEBUT portfolio */
+#portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 55px;
+}
+.MON1{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    border-radius: 120px 0 0 120px ;
+    box-shadow: 0 0  5px;
+    background-color: rgba(69, 90, 97, 0.048);
+   }
+.MON1 .matof{
+    border-radius: 100%;
+    height: 270px;
+    width: 170px; 
+}
+.modifier{
+    display: flex;
+    margin-left: 100px;
+    padding: 10px;
+}
+.MON1 .logoadress{
+    height: 17px;
+    background-color: rgba(100, 100, 206, 0.411);
+}
+.MON1 .Adress{
+    margin-left: 10px;
+    font-size: 21px;
+}
+.logomail{
+    height: 17px;
+}
+.mail{
+    margin-left: 10px;
+    font-size: 21px;
+}
+.span2{
+    color: blue;
+    text-decoration: underline;
+}
+.span1{
+    color: blue;
+}
+.span3{
+        color: blue;
+}
+.phone{
+    font-size: 22px;
+    margin: 10px;
+}
+.logophone{
+    height: 17px;
+}
+.MOI{
+    margin: 10px;
+    font-size: 20px;
+    text-transform:inherit;
+}
+.skills{
+    background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 30px;
+}
+.competences{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.classe1{
+    display: flex; 
+    font-size: 22px;
+    margin-left: 10px;
+}
+.style{
+    text-decoration: underline;
+    margin: 20px;
+    background-color: rgba(236, 236, 236, 0.904);
+    width: 200px;
+    margin-left: 200px;
+    text-align: center;
+    height: 40px;
+    border-radius: 15px;
+}
+.fist1 p{
+    padding: 10px;
+    width: 70px;
+    margin-left: 100px;
+}
+.second1 p{
+    padding: 10px;
+    width: 70px;
+    margin-left: 40px;
+}
+
+.fist1{
+    margin-left: 10px;
+}
+.second1{
+    margin-left: 40px;
+}
+.Interets{
+     background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 30px;
+}
+.expInterets{
+    margin: 10px;
+    font-size: 20px;
+    text-transform:inherit;
+}
+.modifier{
+    display: flex;
+}
+.prenom1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 300%;
+    margin-right: 70px;
+}
+.prenom2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.EXP{
+    font-size: 25px;
+    margin-left: 75px;
+} 
+ .MON2{
+    width: 100%;
+    height: 70vh;
+    border-radius: 0 120px 120px 0;
+    box-shadow: 0 0  5px;
+    background-color: rgba(81, 94, 94, 0.281);
+}
+.EXPERIENCE{
+    background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 250px;
+}
+.classe2{
+    display: flex; 
+}
+.fist2{
+    margin-left: 20px;
+    font-size: 18px; 
+}  
+.second2{
+    margin-left: 60px;
+    font-size: 18px;
+}
+.EDUCATION{
+    background-color: white;
+    height: 32px;
+    width: 210px;
+    text-align: center;
+    margin-left: 30px;
+} 
+/* FIN portfolio  */
+
+/* DEBUT CONTACT */
+#contact{
+    height: 100vh;
+    background: #00000044;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ccc;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+hr{
+    margin: 10px 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+.form2{
+    display: flex;
+    width: 100%;
+}
+.form2 div{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    margin: 5px;
+}
+label, input{
+    margin-bottom: 6px;
+    padding: 5px;
+}
+input{
+    border: 1px solid rgba(0,0,0,0.4);
+}
+textarea{
+    padding: 15px;
+}
+.form3{
+    margin: 15px;
+    width: 20%;
+    height: 30%;
+    margin-left: 40%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 6px;
+}
+.form3:hover{
+    background: #000;
+    color: #ccc;
+}
+/* FIN CONTACT */
+
+/* footer */
+footer {
+    margin-top: 65px;
+    height: auto;
+    padding-top: 40px;
+}
+.footer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-1 h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+.footer-1 p {
+    max-width: 500px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.footer-2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    height: 30px;
+}
+.footer-2 p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.footer-2  span {
+    text-transform: uppercase;
+    opacity: .6;
+    font-weight: 200;
+}
+/* footer */

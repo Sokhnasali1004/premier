@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* DEBUT NAV */
+
+#NAV{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../Images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+span{
+     color: rgba(8, 92, 247, 0.932);
+}
+.divNav{
+    display: flex;
+    padding: 25px;
+    color: white;
+}
+.divNav h1{
+    margin-left: 5px;
+}
+.IMG1{
+   height: 25px;
+   margin-top: 2px;
+}
+ul{
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform:capitalize;
+    text-transform: uppercase;
+}
+ul li{
+    list-style: none;
+    padding: 25px;
+}
+ul a:hover{
+    color:rgb(85, 141, 141);
+}
+/* FIN NAV */
+
+/* DEBUT SERVICES */
+#SERVICES{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.DivListe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:550px;
+    width: 20%;
+    background-color: rgba(74, 139, 139, 0.164);
+    margin-top:100px ;
+    margin-left:30px ;
+    text-transform: capitalize;
+    font-size: 19px;
+    box-shadow: 0 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.DivDeco{
+    width: 70%;
+    height: 90vh;
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 85vh;
+    display: flex;
+    padding: 9px;
+    flex-wrap: wrap;
+    font-size: 22px;
+}
+.deco2:hover {
+    transform: scale(1.1); 
+    /* mettre en valeur image */
+}
+.imgdeco{
+    width: 275px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.deco2{
+    background-color:rgba(95, 158, 160, 0.322);
+    height: 280px;
+    width: 280px;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+    margin: 10px;
+    margin: 15px;
+} 
+.deco2 p{
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 18px;
+}
+.flex{
+    display: flex;
+} 
+button{
+    height: 38px;
+    width: 100px;
+    margin-left: 80px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(157, 179, 219, 0.651);
+    color: darkblue;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+button:hover{
+    background-color:#333;
+}
+
+/* FIN SERVICES */

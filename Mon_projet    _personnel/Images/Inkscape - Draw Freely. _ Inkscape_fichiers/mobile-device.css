@@ -1,0 +1,527 @@
+/* Always present */
+body {
+  width: 100%;
+}
+
+#logo {
+  margin: 22px 0 0 8px;
+}
+#tabs {
+  position: absolute;
+  top: 0;
+  right: 8px;
+}
+#tabs > #tab_hackfest {
+  position: absolute;
+  top: 30px;
+  margin: 0;
+  right: 0;
+  opacity: .8;
+}
+#tabs > #tab_hackfest p,
+#tabs > #tab_hackfest a {
+  border-radius: 5px;
+}
+#tabs > #tab_hackfest p {
+  display:inline-block;
+}
+#topsearch {
+  right: 8px;
+  top:65px;
+}
+
+.header .nav {
+  padding: 0 10px;
+}
+#menu {
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+}
+#menu > li {
+  display: list-item;
+  float: left;
+}
+#menu li ul {
+  top: 38px;
+  border-radius:0;
+}
+#menu > li > a {
+  padding: 10px 15px;
+  border: 0;
+  background: none;
+  font-size: 13px;
+  border-radius:0;
+}
+#menu > li.selected > a,
+#menu > li.ancestor > a {
+  padding: 9px 14px;
+  border: 1px solid #5a5a5a;
+}
+#menu > li:last-child > a {
+  border-radius: 0;
+}
+#menu li li.main {
+  display: list-item;
+}
+
+body > .footer {
+  padding: 10px;
+  margin:0 10px;
+}
+body > .footer p {
+  font-size:0.85rem;
+}
+#final-footer {
+  padding-top:20px;
+}
+#final-footer > span {
+  display: block;
+  padding: 10px;
+  color:#555;
+}
+#final-footer > a {
+  white-space: nowrap;
+}
+
+
+/* Homepage */
+#banners {
+  position: relative;
+}
+#banners > div {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#banners > div > div {
+  width: auto;
+}
+#shield .tabs {
+  margin: 6px 5px 0;
+}
+#banners > div > p {
+  bottom: 32px;
+}
+#shield .tabs > li > a,
+#shield .tabs > li > div {
+  position: relative;
+  padding: 14px;
+}
+#shield .tabs strong {
+  margin: 0 24px 10px 0;
+  font-size: 16px;
+}
+#shield .tabs li > a > img {
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  float: none;
+  margin: -2px 0 0 0;
+}
+#columns {
+  padding-left: 0px;
+  padding-right: 0px;
+  background: transparent;
+  margin-top:-105px;
+}
+#columns > .column,
+#columns > .column:last-child {
+  display: block;
+  margin-bottom: 32px;
+  width: auto;
+  border-right: 0;
+  padding:7px !important;
+}
+
+
+/* Various contents */
+ul,
+ol {
+  padding-left: 20px;
+}
+
+#content {
+  margin-bottom: 0;
+  padding: 5px 18px;
+  background: transparent;
+  word-wrap: break-word;
+}
+#content > div.wrapper {
+  padding: 0px;
+}
+#left-column,
+#right-sidebar {
+  float: none;
+  padding: 0;
+  width: auto;
+}
+#left-column{
+  max-width:100vw !important;
+}
+body.resource #left-column {
+  width:100vw !important; 
+}
+.page #left-column > h2:first-child,
+#right-sidebar {
+  margin-top: 1.5ex;
+}
+
+#right-sidebar {
+ padding: 15px;
+}
+
+table.bioitem p.bio {
+  min-height: 104px;
+}
+.bioitem a.link {
+  min-width: 120px;
+  min-height: 120px;
+  line-height: 117px;
+}
+.bioitem a.link img {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#profile {
+  padding: 12px;
+  border-radius: 0;
+}
+#profile ~ #left-column,
+#profile ~ #right-sidebar {
+  padding: 0 12px;
+}
+
+.item .image {
+  padding: 12px;
+}
+.item .image img {
+  max-width: 100%;
+}
+
+.page img {
+  max-width: 100%;
+}
+.page > .donationlogo:first-child {
+  position: relative;
+  mix-blend-mode: hard-light;
+}
+.page > .donationlogo:first-child:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, gray, transparent 30%);
+}
+div.donationpicparagraph img {
+  margin: 12px 0 12px 12px;
+}
+
+#toc {
+  font-size: inherit;
+  line-height: inherit;
+}
+div.toc,
+#toc.right {
+  margin-right: 0;
+}
+#toc.inline h2 {
+  margin-bottom: 1ex;
+}
+
+
+
+@media screen and (max-width: 599px) {
+  /* Always present */
+  #logo {
+    margin-top: 20px;
+  }
+  #topsearch {
+    top:65px;
+  }
+
+
+  /* Homepage */
+  #shield .tabs > li > a,
+  #shield .tabs > li > div {
+    padding: 10px;
+  }
+  #shield .tabs strong {
+    font-size: 14px;
+  }
+
+
+  /* Various contents */
+  .item .title h2 {
+    clear: right;
+    padding-top: 12px;
+  }
+  .item div.desc,
+  .item div.side,
+  .item .side h2 {
+    display: block;
+    width: auto;
+  }
+  .item .desc {
+    min-height: auto;
+  }
+  .item .side {
+    border-left: 0;
+  }
+
+  .article,
+  .article h2,
+  .article .readmore {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .article.unpub {
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .article p {
+    margin: 5px 0;
+  }
+
+  #toc.right,
+  #toc.inline {
+    float: none;
+    margin: 1em -8px;
+    padding: 1ex 8px;
+    width: auto;
+  }
+  #menu li li a {
+    border-top: 1px solid #888;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+}
+
+
+
+
+@media screen and (max-width: 459px) {
+  /* Always present */
+  body.resource #left-column {
+    width:100% !important; 
+  }
+  #cleartop {
+    position: relative;
+    height: auto;
+    text-align: center;
+  }
+  #logo {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    padding-top: 68px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  #header-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #tabs {
+    display: inline-block;
+    position: static;
+    float: none;
+    margin-left: -5px;
+  }
+  #tabs > li.dropdown > div {
+    text-align: left;
+  }
+  #tabs > #tab_hackfest {
+    white-space: normal;
+    left: 4px;
+    right: 4px;
+    margin-top:3px;
+  }
+  #tabs > #tab_languages > div {
+    left: 0;
+    right: auto;
+    border-radius: 0 5px 5px 5px;
+  }
+  #tabs > #tab_languages > div > p:first-child a {
+    border-radius: 0 5px 0 0;
+  }
+  #topsearch {
+    top: 150px;
+  }
+
+  .header .nav {
+    margin: 18px 8px 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 0 10px 10px 10px;
+    height:35px;
+    width:60px;
+  }
+  #menu-toggle {
+    display: block;
+    background-color:#000 !important;
+    border-color:#555 !important;
+    border-width:1px !important;
+    border-style:solid !important;
+    padding:7px;
+    margin-top:0px;
+    filter:invert(1);
+    position:absolute;
+    border-radius:3px;
+  }
+  #menu-toggle.expanded {
+    padding-bottom:19px;
+  }
+  #menu {
+    display: none;
+    position: absolute;
+    width:94vw;
+    background-color:#fff;
+    margin: 0 0 16px;
+    border-width:1PX;
+    border-style:solid;
+    border-color:#999;
+    margin-top:43px;
+  }
+  #menu.shown {
+    display: block;
+  }
+  #menu > li {
+    float: none;
+    margin: 0;
+    border-width:0 0 1px 0;
+    border-style:solid;
+    border-color:#999;
+  }
+  #menu > li:last-child {
+    border-width:0;
+  }
+  #menu > li > a {
+    padding: 8px 12px;
+    text-align: left;
+  }
+
+  #menu > li.activated > a {
+    padding: 8px 12px;
+    text-align: left;
+  }
+   #menu > li.activated li > a {
+    padding: 8px 12px;
+    text-align: left;
+  }
+  #menu > li.activated li.activated > a {
+    padding: 8px 12px;
+    text-align: left;
+  }
+   
+  #menu > li:first-child > a {
+    border-top-right-radius: 10px;
+  }
+  #menu li:last-child:not(.activated) > a,
+  #menu li:last-child > ul {
+    border-radius: 0;
+  }
+  #menu > li.selected > a,
+  #menu > li.ancestor > a {
+    border: 0;
+    border-top: 1px solid #5a5a5a;
+    border-bottom: 1px solid #333;
+  }
+
+  #menu li ul {
+    position: static;
+    width: 100%;
+    border: 0;
+  }
+  #menu li:hover:not(.clicked):not(.activated) > ul {
+    display: none;
+  }
+
+  /* Homepage */
+  #banners > div > div {
+    margin: 0;
+  }
+  #banners > div > div > p.text {
+    font-size: 16px;
+  }
+
+  #shield .tabs:not(.expanded) {
+    font-size: 0;
+  }
+  #banners > div > p {
+    bottom: 40px;
+  }
+  #banners > div > p > a{
+    color:#fff !important;
+    background-color:rgba(0,0,0,0.2) !important;
+    padding:1px 4px;
+    border-radius:3px;
+  }
+
+  #shield {
+    margin-bottom:93px;;
+  }
+  .footer p{
+    font-size:1rem;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+  #shield .tabs li a:focus img{
+    animation: bounce 1.3s infinite;
+    -webkit-animation: bounce 1.3s infinite;
+    -moz-animation: bounce 1.3s infinite;
+    -o-animation: bounce 1.3s infinite;
+  }
+
+  #shield .tabs {
+    line-height: 1;
+  }
+  #shield .tabs > li > a,
+  #shield .tabs > li > div {
+    padding: 4px;
+  }
+  #shield .tabs:not(.expanded) li > a > img {
+    position: static;
+    width:30px;
+    height:30px;
+  }
+  #shield .tabs:not(.expanded) li > a strong {
+    font-size:9.5px;
+    line-height:1;
+  }
+  #shield .tabs:not(.expanded) li {
+    text-align:center;
+  }
+  #shield .tabs:not(.expanded) strong {
+    margin-right: 0;
+    font-size: 14px;
+    min-height:20px;
+  }
+  #shield .tabs.expanded > li {
+    display: block;
+    width: auto;
+  }
+  #shield .tabs.expanded > li:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+  #shield .tabs.expanded > li:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+}
